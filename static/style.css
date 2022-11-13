@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+}
+.main-board {
+  background-color: rgb(19, 56, 2);
+  color: #fff;
+  display: flex;
+  border: 1px solid #000;
+  padding: 1.6rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-board img {
+  height: 12rem;
+  width: 8rem;
+}
+.player {
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 0.5rem;
+}
+.bot {
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 0.5rem;
+}
+#your-box,
+#dealer-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.player,
+.bot {
+  padding: 1rem;
+  border: 1px solid #000;
+  flex: 1;
+  height: 35rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(19, 56, 2);
+  padding: 1rem;
+  border: 1px solid #000;
+}
+.btn {
+  width: 40%;
+  padding: 1rem;
+  border: 1px solid #000;
+}
+.blue {
+  padding: 1.4rem;
+  background-color: rgb(0, 26, 255);
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.yellow {
+  padding: 1.4rem;
+  background-color: yellow;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.red {
+  padding: 1.4rem;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+table {
+  display: flex;
+  justify-content: center;
+  padding: 1.6rem;
+  border: 1px solid #000;
+}
+th,
+td {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+.green-th {
+  background-color: #08af08;
+  color: #fff;
+}
+.red-th {
+  background-color: red;
+  color: #fff;
+}
+.yellow-th {
+  background-color: yellow;
+  color: #000;
+}

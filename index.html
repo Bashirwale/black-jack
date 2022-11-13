@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/style.css" />
+    <title>BLACK JACK GAME</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Blackjack</h1>
+      <h3 id="blackjack-result">Let's PLay</h3>
+      <div class="main-board">
+        <div class="player">
+          <h2>You:<span id="your-blackjack-result">0</span></h2>
+          <div id="your-box"></div>
+        </div>
+        <div class="bot">
+          <h2 id="">Dealer:<span id="dealer-blackjack-result">0</span></h2>
+          <div id="dealer-box"></div>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="btn">
+          <button id="hit-btn" class="blue">Hit</button>
+          <button id="stand-btn" class="yellow">Stand</button>
+          <button id="deal-btn" class="red">Deal</button>
+        </div>
+      </div>
+      <table>
+        <tr>
+          <th class="green-th">Wins</th>
+          <th class="red-th">losses</th>
+          <th class="yellow-th">Draws</th>
+        </tr>
+        <tr>
+          <td id="win-score">0</td>
+          <td id="lose-score">0</td>
+          <td id="draw-score">0</td>
+        </tr>
+      </table>
+    </div>
+    <script src="static/script.js"></script>
+  </body>
+</html>
